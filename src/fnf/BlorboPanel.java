@@ -39,7 +39,7 @@ public class BlorboPanel extends JPanel{
      * All frame images must share the same file extension (.png, .jpg, etc).
      * Frame images must follow the naming convention of N0.png, N1.png, N2.png, etc until reaching N(animation length).png.
      * There must similarly be animations present using U, D, L, and R for the directions (N is neutral).
-     * All image files must be present in the same folder,
+     * All image files must be present in the same folder.
      * 
      * @param folderPath
      * @param animLength
