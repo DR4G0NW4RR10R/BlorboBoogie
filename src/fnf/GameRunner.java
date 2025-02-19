@@ -33,7 +33,7 @@ public class GameRunner implements KeyListener {
         Timer timer = new Timer();
         TimerTask tick = new TimerTask() {
             public void run() {
-                blorbo.tick();
+                blorbo.tick(); // Ah, so this is what makes you tick...
             }
         };
         timer.scheduleAtFixedRate(tick, 0, this.DELAY);
