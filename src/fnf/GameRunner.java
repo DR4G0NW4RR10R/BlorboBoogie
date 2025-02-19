@@ -34,6 +34,7 @@ public class GameRunner implements KeyListener {
         TimerTask tick = new TimerTask() {
             public void run() {
                 blorbo.tick();
+                // ah, so this is what makes you tick...
             }
         };
         timer.scheduleAtFixedRate(tick, 0, this.DELAY);
